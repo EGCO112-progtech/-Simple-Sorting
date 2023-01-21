@@ -1,6 +1,6 @@
 #define N 6
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+
 #include "sorting.h"
 
 int main() {
@@ -15,4 +15,4 @@ int main() {
   // display(a,N);
 }
 
-// new number =2 
+

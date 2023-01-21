@@ -1,8 +1,5 @@
 compile: main.cpp 
-	 g++  main.cpp -o bubble
-
-compileSelection: main_selection.cpp 
-	 g++  main_selection.cpp -o selection
+	 gcc  main.c -o bubble
 
 runSelection: selection
 	  ./selection
