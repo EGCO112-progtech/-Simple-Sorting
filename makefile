@@ -1,4 +1,4 @@
-compile: main.cpp 
+compile: main.c 
 	 gcc  main.c -o bubble
 
 runSelection: selection

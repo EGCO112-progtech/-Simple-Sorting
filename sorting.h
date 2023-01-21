@@ -1,4 +1,15 @@
-// selection sort function module in C 
+// selection sort function module in C
+
+void display(int a[],int n){
+
+    int i;
+
+    for(i=1;i<n;i++)
+        printf("%5d",a[i]);
+    printf("\n");
+  
+}
+
 void selectionSort(int data[], int length) 
 { 
 	int i, j, m, mi; 
