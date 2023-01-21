@@ -16,7 +16,7 @@ void selectionSort(int data[], int length)
 	
      display(data,length);
      
-	} 
+	
 } 
 
 
