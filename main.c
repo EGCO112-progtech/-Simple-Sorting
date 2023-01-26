@@ -12,7 +12,7 @@ int main() {
    //insertion(a,N);
 
   // selectionSort(a,N);
-  // display(a,N);
+   display(a,N);
  return 0;
 }
 
