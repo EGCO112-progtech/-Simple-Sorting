@@ -1,12 +1,8 @@
 compile: main.c 
-	 gcc  main.c -o bubble
+	 gcc  main.c -o ll
 
-runSelection: selection
-	  ./selection
+run: ll
+	 ./ll
 
-run: bubble
-	 ./bubble
-
-
-clean: bubble
-	 rm bubble
+clean: ll
+	 rm ll
